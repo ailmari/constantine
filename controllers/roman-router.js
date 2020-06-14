@@ -6,9 +6,9 @@ romanRouter.get('/', (req, res) => {
 
     try {
         const arabic = resolveRomanQuery(roman)
-        res.status(200).send(arabic)
+        res.contentType('text/plain').status(200).send(arabic)
     } catch (error) {
-        return res.status(400).send(error.message)
+        res.contentType('text/plain').status(400).send(error.message)
     }
 })
 
