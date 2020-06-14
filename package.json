@@ -1,0 +1,12 @@
+{
+    "name": "constantine",
+    "version": "1.0.0",
+    "description": "Microservice that converts roman numerals to arabic numerals.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "ailmari@protonmail.com",
+    "license": "ISC"
+}
