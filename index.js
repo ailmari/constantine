@@ -9,5 +9,5 @@ app.use('/', romanRouter)
 
 const PORT = 3000
 app.listen(PORT, () => {
-    console.log(`Contatine service running on port ${PORT}`)
+    console.log(`Constantine service running on port ${PORT}`)
 })
