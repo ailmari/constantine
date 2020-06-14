@@ -1,6 +1,7 @@
 # Constantine
 
-Microservice that converts roman numerals to arabic numerals.
+Microservice that converts roman numerals to arabic numerals.  
+Built on Node Express and uses Docker for containerization.  
 
 # Quickstart
 1. Clone the repository:
